@@ -128,3 +128,10 @@ const listaDeAlumnos = new LinkedList();
 listaDeAlumnos.addAtEnd('cesar');
 listaDeAlumnos.addAtEnd('juan');
 listaDeAlumnos.addAtEnd('marlon');
+listaDeAlumnos.addAtEnd('Ulma');
+listaDeAlumnos.addAtEnd('margarito');
+
+console.log(listaDeAlumnos);
+console.log(listaDeAlumnos.get(3));
+listaDeAlumnos.delete('marlon');
+console.log(listaDeAlumnos);
